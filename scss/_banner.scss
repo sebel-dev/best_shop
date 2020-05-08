@@ -1,0 +1,75 @@
+.hero {
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  flex-grow: 1;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__title {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 49px;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+}
+
+.banner__subtitle {
+  margin: 0px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.banner__button {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  max-width: 440px;
+  width: 100%;
+  min-width: 180px;
+  height: 67px;
+  background: #08A6E4;
+  box-shadow: 5px 10px 14px #07ACE629;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.banner__button:hover {
+  box-shadow: 0px 0px 1px 1px rgba(51, 153, 255, 0.2);
+}
+
+.hero {
+  background: url(../images/Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+ }
+
+@media (max-width: 600px) {
+  .banner {
+    margin-bottom: 30vh;
+  }
+  .banner__button {
+    width: 80%;
+  }
+  .hero {
+    background-size: auto;
+  }
+}

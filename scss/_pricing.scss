@@ -1,0 +1,277 @@
+.pricing {
+  width: 100%;
+  background: white;
+}
+
+.container__pricing {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__header {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.pricing__cardlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.pricing__cardlist img{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.cardlist-info {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  flex-grow: 0.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+
+.pricing__cardlist-basic {
+  position: relative;
+  width: 372px;
+  height: 461px;
+  border: 1px solid #FB3B64;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 50px 0;
+}
+.pricing__cardlist-basic-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background: #EB476E;
+  border-radius: 23px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pricing__cardlist-basic a {
+  position: absolute;
+  bottom: -25px;
+}
+
+.pricing__cardlist-basic-el1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #13253B;
+}
+
+.pricing__cardlist-basic-el2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #FB3B64;
+  margin: 20px 8px 60px 0;
+}
+
+.card__limited-offer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #13253B;
+  padding: 10px 0 30px 0;
+}
+
+.pricing__cardlist-professional {
+  position: relative;
+  width: 405px;
+  height: 500px;
+  margin: 0 50px;
+  box-shadow: 5px 10px 27px #07ACE629;
+  border: 1px solid #07ACE6;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 50px 0;
+}
+.pricing__cardlist-professional-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background: #07ACE6;
+  border-radius: 23px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pricing__cardlist-professional a {
+  position: absolute;
+  bottom: -25px;
+}
+.pricing__cardlist-professional-el1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #13253B;
+}
+
+.pricing__cardlist-professional-el2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #07ACE6;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+
+}
+.pricing__cardlist-professional-limited {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #13253B;
+}
+
+.pricing__cardlist-premium {
+  position: relative;
+  width: 372px;
+  height: 461px;
+  border: 1px solid #55DFB4;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 50px 0;
+}
+.pricing__cardlist-premium-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background: #55DFB4;
+  border-radius: 23px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pricing__cardlist-premium a {
+  position: absolute;
+  bottom: -25px;
+}
+.pricing__cardlist-premium-el1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #13253B;
+}
+
+.pricing__cardlist-premium-el2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #55DFB4;
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px
+}
+.pricing__cardlist-premium-limited {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #13253B;
+}
+
+@media (max-width: 1368px) {
+  .pricing__cardlist-basic,
+  .pricing__cardlist-premium {
+    width: 292px;
+  }
+
+  .pricing__cardlist-professional {
+    width: 335px;
+  }
+}
+
+@media (max-width: 1096px) {
+  .pricing__cardlist-basic,
+  .pricing__cardlist-premium {
+    width: 232px;
+  }
+
+  .pricing__cardlist-professional {
+    width: 275px;
+  }
+}
+
+@media (max-width: 900px) {
+  .pricing__cardlist {
+    flex-direction: column;
+  }
+
+  .pricing__cardlist-basic,
+  .pricing__cardlist-premium {
+    width: 432px;
+    height: 300px;
+    margin-bottom: 60px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .pricing__cardlist-professional {
+    width: 475px;
+    height: 350px;
+    margin-bottom: 60px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .pricing__cardlist-basic-header {
+    padding-top: 70px;
+  }
+  .pricing__cardlist-professional-header {
+    padding-top: 30px;
+  }
+  .pricing__cardlist-premium-header {
+      padding-top: 30px;
+    }
+
+
+}
